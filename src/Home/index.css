@@ -1,0 +1,245 @@
+.profileDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 45px;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    padding: 16px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.active{
+    background-color: rgb(0, 229, 255);
+    padding: 4px 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+    transform: rotateY(360deg);
+    margin: 5px 10px;
+    box-shadow: 1px 1px 10px rgb(241, 128, 128);
+    transition: 2s;
+
+
+
+}
+
+
+.inActive{
+    border: none;
+    border: 0.5px solid rgb(199, 115, 115);
+    padding: 4px 10px;
+    box-shadow: 1px 1px 10px black;
+    font-weight: bold;
+    background-color: rgb(214, 222, 230);
+    border-radius: 5px;
+    margin: 5px 10px 10px;
+
+} 
+
+
+@media (max-width:430px) {
+    .active{
+        font-size: 10px;
+        margin: 5px 5px;
+        padding: 4px 8px;
+
+
+    }
+
+    .inActive{
+        font-size: 10px;
+        margin: 5px 5px;
+        padding: 4px 8px;
+
+
+    }
+}
+
+
+.itemsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width:1150px) {
+    .itemsDiv{
+        width: 60vw;
+    }
+}
+
+.ratingDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sizing{
+    width: 200px;
+    margin: 10px;
+    height: 270px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgb(28, 15, 29);
+    text-decoration: none;
+}
+
+.adImg{
+    width: 60%;
+    margin: 30px 20px;
+    
+}
+
+.skipDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.adDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index:9999;
+    background-size: 100% 100%;
+    width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    position: fixed;
+    background-color: aliceblue;
+   background-image: url("https://ik.imagekit.io/sdce03tuc/welcome-bonus.jpg");
+    box-shadow: 1px 1px 20px rgb(231, 83, 43);
+}
+
+.skipBtn{
+    background-color: aliceblue;
+    border: none;
+    padding: 4px 7px;
+    font-weight: 500;
+
+}
+
+@media (max-width:450px) {
+    .adDiv{
+    margin-top: -700px;
+    }
+}
+
+@media (max-width:300px) {
+    .adDiv{
+    margin-top: -500px;
+    width: 200px;
+    }
+}
+
+@media (min-width:800px) {
+    .adDiv{
+    margin-top: 100px;
+    width: 400px;
+    }
+}
+
+.mainHeading{
+    text-shadow: 1px 1px 20px rgb(0, 60, 255);
+    color: rgb(0, 5, 9);
+    
+}
+
+.title{
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 0px 10px;
+    font-size: 10px;
+} 
+
+.price{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin: 2px;
+}
+.discount{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 0px 0px;
+    text-decoration: line-through;
+    font-size: 15px;
+    margin: 2px -5px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.staring{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    margin-left: -5px;
+    padding-left: -5px;
+}
+
+
+.loaderDiv{
+   padding-top: 200px;
+
+}
+
+.failedView{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.errorImg{
+    height: 200px;
+    width: 60%;
+    max-width: 700px;
+    display: flex;
+    align-self: center;
+}
+
+.errorPara{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.rating{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 0px 10px;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

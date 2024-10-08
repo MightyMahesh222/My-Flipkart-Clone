@@ -1,0 +1,192 @@
+h1{
+    color: black;
+}
+
+.cartDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 110vh;
+    padding-top: 45px;
+}
+
+.cartImage{
+    height: 100px;
+    mix-blend-mode:darken;
+    display: flex;
+    align-self: center;
+    float: left;
+    width: 80px;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+.delete{
+    padding: 4px 10px;
+    background-color: rgb(129, 19, 19);
+    border: none;
+    color: aliceblue;
+    border-radius: 4px;
+    font-weight: 600;
+
+}
+
+.yourCart{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(30, 5, 29);
+    text-shadow: 1px 1px 10px wheat;
+}
+
+.cartItemDiv{
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(3, 84, 247);
+    border-radius: 10px;
+    flex-direction: row;
+    background-color: rgba(213, 232, 245, 0.654);
+    border: 1px rgb(123, 105, 105) solid;
+    padding: 20px;
+    margin: 5px;
+    width: 85%;
+    max-width: 800px;
+    mix-blend-mode:darken;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.titleDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    width: 40%;
+}
+
+.columnDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartTitle{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.quantity{
+    font-weight: 600;
+    margin: 10px 0px;
+
+
+}
+
+.noItemsDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   margin-top: 20vh;
+}
+
+.shopNow{
+    padding: 7px 20px;
+    font-weight: 600;
+    background-color: rgb(0, 37, 187);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    animation: shop 0.2s ease-in-out;
+    box-shadow: 1px 1px 10px black;
+}
+
+.shopNow:active{
+    transform: scale(0.9);
+}
+
+.noItems{
+    font-style: oblique;
+    text-shadow: 1px 1px 10px rgb(225, 63, 63);
+    text-align: center;
+}
+
+
+.totalAmountDiv{
+    display: flex;
+    align-items: center;
+    background-color: rgb(55, 77, 76);
+    padding:5px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(8, 60, 16);
+    color: rgb(240, 255, 242);
+
+}
+
+.amount{
+    font-weight: 600;
+}
+
+.amountMainDiv{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+align-self: flex-end;
+margin-top: 30px;
+margin-right: 50px;
+
+
+}
+
+.buyNow{
+    background-color: rgb(49, 43, 226);
+    padding: 8px 15px;
+    border: none;
+    display: flex;
+    align-self: center;
+    color: aliceblue;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 1px 1px 10px rgb(50, 50, 232);
+    margin-bottom: 50px;
+
+}
+
+.buyNow:active{
+    scale: 0.9;
+} 
+
+
+.errorDiv{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 70px;
+    z-index: 2;
+    font-weight: 600;
+    border-radius: 10px;
+    text-shadow: 1px 1px 10px rgb(80, 60, 207);
+    box-shadow: 1px 1px 10px black;
+    animation: error 3s infinite linear;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    position: fixed;
+    color: rgb(21, 25, 30);
+    display: flex;
+}
+
+@keyframes error {
+    0%{
+        scale: 0.9;
+    }
+    50%{
+        scale: 1;
+    }
+    100%{
+        scale: 0.9;
+    }
+}

@@ -1,0 +1,57 @@
+.aboutDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 45px;
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+
+.singleQuestionDiv{
+    background-color: rgba(208, 237, 221, 0.46);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    margin: 10px;
+    max-width: 900px;
+    min-width: 200px;
+} 
+
+.faqRowDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizontal{
+    margin: 0px;
+}
+
+.faqQuestion{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    margin: 10px 0px;
+}
+
+
+.faqAnswer{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-right: 20px;
+    margin: 10px 0px;
+    margin-right: 20px
+}
+
+.arrowBtn{
+    background-color: ;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    border: none;
+}

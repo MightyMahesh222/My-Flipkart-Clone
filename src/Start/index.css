@@ -1,0 +1,118 @@
+.link{
+    text-decoration: none;
+    padding: 20px 15px;
+    color: aliceblue;
+}
+
+.cartLink{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.logoutBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 20, 23);
+    padding:6px 10px ;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px; 
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.tabs{
+    background-color: transparent;
+    color: black;
+    margin: 0px;
+    font-weight: bold;
+    border: none;
+    padding:0px 5px;
+    margin: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.clickedBorder{
+    background-color: transparent;
+    color: black;
+    margin: 0px;
+    font-weight: bold;
+    padding: 0px;
+    margin: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 3px solid white;
+}
+
+.trigger-button{
+    margin-right: 30px;
+    font-weight: 600;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    
+}
+
+.homeDiv{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 30px;
+    padding: 12px;
+    padding-right: 50px;
+    width: 100%;
+    background-color: hwb(0 0% 100%);
+    position: fixed;
+z-index: 9999;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30vw;
+    height: 100vh;
+    background-color: rgb(55, 83, 135);
+    display: flex;
+    margin-left: 70%;
+    z-index: 100;
+    transition: 3s;
+    
+  }
+
+  *{
+    transition:2s ;
+  }
+
+  @media (min-width:800px) { 
+    .popup-overlay{
+        width: 20vw;
+        margin-left: 80vw;
+    }
+  }
+
+
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .insideSettings{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+
+    
+  }
