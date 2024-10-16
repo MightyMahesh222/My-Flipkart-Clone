@@ -123,7 +123,6 @@
     position: fixed;
     background-color: aliceblue;
    background-image: url("https://ik.imagekit.io/sdce03tuc/welcome-bonus.jpg");
-    box-shadow: 1px 1px 20px rgb(231, 83, 43);
 }
 
 .skipBtn{

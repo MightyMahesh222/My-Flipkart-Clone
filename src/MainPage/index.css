@@ -1,8 +1,8 @@
 .mainPage{
-    background-image: linear-gradient(to right,rgb(160, 160, 210),rgb(132, 203, 132));
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(255, 255, 255);
     height: 100vh;
     width: 100vw;
     padding-top: 10vh;
@@ -25,7 +25,7 @@
 .welcomeImg{
     height: 200px;
     width: 350px;
-    mix-blend-mode:color-burn;
+    mix-blend-mode:darken;
 }
 
 .descriptions{
