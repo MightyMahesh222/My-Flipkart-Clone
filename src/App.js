@@ -15,18 +15,18 @@ function App() {
   return (
     <div className='app'>
        <BrowserRouter>
-       <Switch>
-        <Route exact path='/' component={MainPage}/>
-        <Route exact path="/start" component={Start}/>
-        <Route exact path='/home' component={Home}/>
-        <Route exact path='/login' component={Login}/>
-        <Route exact path='/signin' component={SignIn}/>
-        <Route exact path='/about' component={About}/>
-        <Route exact path='/cart' component={Cart}/>
-        <Route exact path='/forget' component={Forget}/>
-        <Route exact path='/product/:id' component={ProductItem}/>
-        <Route component={NotFound}/>
-        </Switch>
+        <Switch>
+          <Route exact path='/' component={MainPage}/>
+          <Route exact path="/start" component={Start}/>
+          <Route exact path='/home' component={Home}/>
+          <Route exact path='/login' component={Login}/>
+          <Route exact path='/signin' component={SignIn}/>
+          <Route exact path='/about' component={About}/>
+          <Route exact path='/cart' component={Cart}/>
+          <Route exact path='/forget' component={Forget}/>
+          <Route exact path='/product/:id' component={ProductItem}/>
+          <Route component={NotFound}/>
+          </Switch>
        </BrowserRouter>
        </div>
   );
