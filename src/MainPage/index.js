@@ -26,7 +26,7 @@ const MainPage=(props)=>{
     return(
         <div className='mainPage'>
         <img alt="welcome" className='welcomeImg' src="https://ik.imagekit.io/sdce03tuc/4b39a94252cddcc7d20326c140278c4e.jpg"/>
-                <p className='descriptions'>Hello customer, welcome to our website.If you are visiting our website for the first time,please sign in to our website.If you already have an account then please tap login.</p>
+                <p className='descriptions'>Hello customer,welcome to our website.If you are visiting our website for the first time,please sign in to our website.If you already have an account then please tap login.</p>
                 <div>
                 <button className='loginBtn' onClick={intoSignin}>Sign in</button>
                 <button className="loginBtn" onClick={intoLogin}>Log in</button>
